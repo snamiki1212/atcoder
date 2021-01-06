@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "dev": "yarn ts-node src/index.ts",
+    "dev:watch": "yarn ts-node-dev --respawn src/index.ts"
+  },
+  "name": "typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "12",
+    "ts-node": "^9.1.1",
+    "ts-node-dev": "^1.1.1",
+    "typescript": "^4.1.3"
+  }
+}
